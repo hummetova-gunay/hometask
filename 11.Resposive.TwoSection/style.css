@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.first-section{
+    width: 100%;
+    background-color: #f1f5f9;
+}
+.text-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 80px 0;
+    gap: 20px;
+}
+.text-image div{
+    width: 250px;
+}
+.text-image .text p:nth-child(1){
+    font-family: 'Grand Hotel';
+    color: #688f37;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.text-image .text p:nth-child(2){
+    font-family:'Catamaran';
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.text-image .text p:nth-child(3){
+    margin-top: 20px;
+    font-family:'Catamaran';
+    color: #90a2b6;
+    font-size: 12px;
+}
+button{
+    margin: 20px 0 20px 0;
+    width: 90px;
+    border: none;
+    background-color: #688f37;
+    color: white;
+}
+.text-image img{
+    border-radius: 8px;
+}
+.image p:nth-child(2){
+    padding-top: 20px;
+    font-family: 'Catamaran';
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.image p:nth-child(3){
+    font-family: 'Catamaran';
+    font-size: 14px;
+    color: #688f37; 
+}
+/* first section finished */
+.second-section{
+    width: 100%;
+    height: 600px;
+}
+.text-1{
+    text-align: center;
+}
+.text-1:nth-child(1){
+    margin-top: 50px;
+    font-family: 'Grand Hotel';
+    color: #688f37;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.text-1:nth-child(2){
+    font-family:'Catamaran';
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.second-section-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.second-images-texts{
+    width: 250px;
+    background-color:#f1f5f9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.for-icon{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 100%;
+    background-color: #a7df63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #688f37;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translateX(-50%);
+}
+.second-images-texts p:nth-child(3){
+   font-family: 'Catamaran';
+   font-weight: bolder;
+   letter-spacing: 3px;
+   margin-top: 20px;
+   margin-top: 30px;
+}
+.second-images-texts p:nth-child(4){
+    text-align: center;
+    font-family:'Catamaran';
+    color: #90a2b6;
+    font-size: 12px;
+}
+.read{
+    width: 100px;
+    height: 20px;
+    background-color: #688f37;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Catamaran';
+    font-size: smaller;
+    margin: 20px 0 20px 0;
+}
+@media screen and (max-width: 992px){
+    .text-image{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 2;
+    }
+    .second-section-images{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 777px) {
+    .text-image{
+        display: flex;
+        flex-direction: column;
+    }
+}
