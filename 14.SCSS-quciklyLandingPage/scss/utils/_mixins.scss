@@ -1,0 +1,11 @@
+@mixin flexBox($justify-content: space-between, $align-items: center) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+  }
+@mixin button{
+    border-radius: 5px;
+    background-color: #B8E4DA;
+    font-family: 'Plus Jakarta Sans';
+    color: #fff;
+}

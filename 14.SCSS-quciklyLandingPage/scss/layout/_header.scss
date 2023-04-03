@@ -1,0 +1,36 @@
+header{
+    background-color: $base-color;
+    nav{
+     height: 75px;
+        @include flexBox;
+        h4{
+            color: $font-color;
+            font-family: $font-family;
+            padding-left: 40px
+        }
+        ul{
+            @include flexBox;
+            gap: 32px;
+
+            li{
+                a{
+                    color: $font-color;
+                    font-family: $font-family;
+                }
+            }
+        }
+        div{
+            .sign-up{
+               padding: 10px 16px;
+               @include button;
+               color: $base-color;
+            }
+            .log-in {
+                padding:10px 16px;
+                @include button;
+                background-color: transparent;
+                padding-right: 44px;
+            }
+        }
+    }
+}

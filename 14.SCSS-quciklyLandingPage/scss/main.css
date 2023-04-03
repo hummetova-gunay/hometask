@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header {
+  background-color: #20484F;
+}
+header nav {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav h4 {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  padding-left: 40px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+header nav ul li a {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+}
+header nav div .sign-up {
+  padding: 10px 16px;
+  border-radius: 5px;
+  background-color: #B8E4DA;
+  font-family: "Plus Jakarta Sans";
+  color: #fff;
+  color: #20484F;
+}
+header nav div .log-in {
+  padding: 10px 16px;
+  border-radius: 5px;
+  background-color: #B8E4DA;
+  font-family: "Plus Jakarta Sans";
+  color: #fff;
+  background-color: transparent;
+  padding-right: 44px;
+}
+
+.hero-banner {
+  height: 100vh;
+  background-color: #FAFAFA;
+}
+.hero-banner .image-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 130px;
+}
+.hero-banner .image-text .text {
+  width: 50%;
+}
+.hero-banner .image-text .text h5 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 18px;
+  color: #072125;
+  margin-bottom: 24px;
+}
+.hero-banner .image-text .text .headline {
+  font-family: "Plus Jakarta Sans";
+  font-size: 64px;
+  color: #072125;
+}
+.hero-banner .image-text .text .description {
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  color: #072125;
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+.hero-banner .image-text .text .sign-up {
+  border-radius: 5px;
+  background-color: #B8E4DA;
+  font-family: "Plus Jakarta Sans";
+  color: #fff;
+  padding: 16px 36px;
+  background-color: #072125;
+}
+.hero-banner .image-text .text .log-in {
+  border-radius: 5px;
+  background-color: #B8E4DA;
+  font-family: "Plus Jakarta Sans";
+  color: #fff;
+  padding: 16px 36px;
+  background-color: transparent;
+  color: #072125;
+}
+
+.team {
+  height: 100vh;
+  background-color: #FAFAFA;
+}
+.team h2 {
+  font-family: "Plus Jakarta Sans";
+  color: #072125;
+  size: 40px;
+  font-weight: 700;
+  padding-top: 92px;
+}
+.team p {
+  font-family: "Plus Jakarta Sans";
+  color: #072125;
+  size: 16px;
+}
+.team .container-fluid .row .col {
+  margin: 0 auto;
+}
+.team .container-fluid .row .col div h4 {
+  font-family: "Plus Jakarta Sans";
+  color: #072125;
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 24px;
+}
+.team .container-fluid .row .col div p {
+  font-family: "Plus Jakarta Sans";
+  color: #072125;
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.team .container-fluid .row .col div .icons {
+  padding-bottom: 124px;
+}/*# sourceMappingURL=main.css.map */

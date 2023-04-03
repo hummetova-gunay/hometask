@@ -1,0 +1,41 @@
+.hero-banner{
+    height: 100vh;
+    background-color: $bg-color;
+    .image-text{
+        @include flexBox;
+        padding: 130px;
+        .text{
+            width: 50%;
+            h5{
+                font-family: $font-family;
+                font-weight: 700;
+                font-size: 18px;
+                color: $font-dark;
+                margin-bottom: 24px;
+            }
+            .headline{
+                font-family: $font-family;
+                font-size: 64px;
+                color: $font-dark;
+            }
+            .description{
+                font-family: $font-family;
+                font-size: 24px;
+                color: $font-dark;
+                margin-top: 32px;
+                margin-bottom: 48px;
+            }
+            .sign-up{
+                @include button;
+                padding: 16px 36px;
+                background-color: $font-dark;
+            }
+            .log-in{
+                @include button;
+                padding: 16px 36px;
+                background-color: transparent;
+                color: $font-dark;
+            }
+        }
+    }
+}

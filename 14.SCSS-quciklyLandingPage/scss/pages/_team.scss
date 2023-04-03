@@ -1,0 +1,43 @@
+.team{
+    height: 100vh;
+    background-color: $bg-color;
+    h2{
+        font-family: $font-family;
+        color: $font-dark;
+        size: 40px;
+        font-weight: 700;
+        padding-top: 92px;
+    }
+    p{
+        font-family: $font-family;
+        color: $font-dark;
+        size: 16px; 
+    }
+    .container-fluid{
+        .row{
+            .col{
+                margin: 0 auto;
+                div{
+                    h4{
+                        font-family: $font-family;
+                        color: $font-dark;
+                        margin-top: 16px;
+                        font-weight: 700;
+                        font-size: 24px;
+                    }
+                    p{
+                        font-family: $font-family;
+                        color: $font-dark;
+                        margin-top: 8px;
+                        font-weight: 400;
+                        font-size: 18px;
+                    }
+                    .icons{
+                        padding-bottom: 124px;
+                    }
+
+                }
+            }
+        }
+    }
+}
