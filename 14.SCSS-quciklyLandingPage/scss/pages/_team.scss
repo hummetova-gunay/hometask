@@ -1,5 +1,4 @@
 .team{
-    height: 100vh;
     background-color: $bg-color;
     h2{
         font-family: $font-family;
@@ -7,11 +6,12 @@
         size: 40px;
         font-weight: 700;
         padding-top: 92px;
+       
     }
     p{
         font-family: $font-family;
         color: $font-dark;
-        size: 16px; 
+        font-size: 16px; 
     }
     .container-fluid{
         .row{

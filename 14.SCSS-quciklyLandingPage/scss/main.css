@@ -29,6 +29,12 @@ header nav ul {
 header nav ul li a {
   color: #fff;
   font-family: "Plus Jakarta Sans";
+  text-decoration: none;
+}
+header nav ul li .fa-bars {
+  display: none;
+  color: #fff;
+  padding-top: 10px;
 }
 header nav div .sign-up {
   padding: 10px 16px;
@@ -37,6 +43,7 @@ header nav div .sign-up {
   font-family: "Plus Jakarta Sans";
   color: #fff;
   color: #20484F;
+  text-decoration: none;
 }
 header nav div .log-in {
   padding: 10px 16px;
@@ -46,10 +53,24 @@ header nav div .log-in {
   color: #fff;
   background-color: transparent;
   padding-right: 44px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+  header nav ul li a {
+    display: none;
+  }
+  header nav ul li .fa-bars {
+    display: block;
+  }
+  header nav div .sign-up {
+    display: none;
+  }
+  header nav div .log-in {
+    display: none;
+  }
 }
 
 .hero-banner {
-  height: 100vh;
   background-color: #FAFAFA;
 }
 .hero-banner .image-text {
@@ -87,6 +108,7 @@ header nav div .log-in {
   color: #fff;
   padding: 16px 36px;
   background-color: #072125;
+  text-decoration: none;
 }
 .hero-banner .image-text .text .log-in {
   border-radius: 5px;
@@ -96,10 +118,18 @@ header nav div .log-in {
   padding: 16px 36px;
   background-color: transparent;
   color: #072125;
+  text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+  .hero-banner .image-text {
+    flex-direction: column-reverse;
+  }
+  .hero-banner .image-text .text {
+    width: 100%;
+  }
 }
 
 .team {
-  height: 100vh;
   background-color: #FAFAFA;
 }
 .team h2 {
@@ -112,7 +142,7 @@ header nav div .log-in {
 .team p {
   font-family: "Plus Jakarta Sans";
   color: #072125;
-  size: 16px;
+  font-size: 16px;
 }
 .team .container-fluid .row .col {
   margin: 0 auto;
@@ -133,4 +163,88 @@ header nav div .log-in {
 }
 .team .container-fluid .row .col div .icons {
   padding-bottom: 124px;
+}
+
+footer {
+  background-color: #20484F;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 58px;
+}
+footer .container .registration h3 {
+  color: #fff;
+  font-weight: 700;
+  font-family: "Plus Jakarta Sans";
+  margin-top: 31px;
+}
+footer .container .registration .row .col {
+  color: #fff;
+  font-size: 16px;
+}
+footer .container .registration .row .col i {
+  color: #fff;
+}
+footer .container .input {
+  display: flex;
+  margin: 39px 0;
+}
+footer .container .input input {
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 20px;
+}
+footer .container .input a {
+  border-radius: 5px;
+  background-color: #B8E4DA;
+  font-family: "Plus Jakarta Sans";
+  color: #fff;
+  border-radius: 0px;
+  padding: 10px 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-decoration: none;
+}
+footer .container .features {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .features .company h5 {
+  color: #fff;
+  font-size: 18px;
+}
+footer .container .features .company ul {
+  gap: 16px;
+}
+footer .container .features .company ul li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+footer hr {
+  color: #DCF2ED;
+}
+footer .quickly {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 16px;
+}
+@media only screen and (max-width: 767px) {
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .container .features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -16,6 +16,12 @@ header{
                 a{
                     color: $font-color;
                     font-family: $font-family;
+                    text-decoration: none;
+                }
+                .fa-bars{
+                    display: none;
+                    color: $font-color;
+                    padding-top: 10px;
                 }
             }
         }
@@ -24,12 +30,36 @@ header{
                padding: 10px 16px;
                @include button;
                color: $base-color;
+               text-decoration: none;
             }
             .log-in {
                 padding:10px 16px;
                 @include button;
                 background-color: transparent;
                 padding-right: 44px;
+                text-decoration: none;
+            }
+        }
+    }
+    @media only screen and (max-width:767px) {
+        nav{
+            ul {
+                li{
+                    a{
+                        display: none;
+                    }
+                    .fa-bars{
+                        display: block;
+                    }
+                }
+            }
+            div{
+                .sign-up{
+                    display: none;
+                }
+                .log-in{
+                    display: none;
+                }
             }
         }
     }
